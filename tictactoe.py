@@ -35,7 +35,7 @@ def check_winner(board):
     winning_triples.append(diag2)
    
     if winning_triple in winning_triples:
-        print(f"\n\tWinner is Player {PLAYER_SORT}. Congratulation!\n\tThank you for playing!")
+        print(f"\n\tWinner is Player {PLAYER_SORT}. Congratulations!\n\tThank you for playing!")
         return True
     
     # check if game has no winner
